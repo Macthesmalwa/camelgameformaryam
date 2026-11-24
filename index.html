@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- htmlaunch:enhanced:v2 -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2264%22%20height%3D%2264%22%20viewBox%3D%220%200%2064%2064%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22hsl(5%2C72%25%2C58%25)%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22hsl(35%2C72%25%2C44%25)%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22url(%23g)%22%2F%3E%3Ctext%20x%3D%2232%22%20y%3D%2246%22%20text-anchor%3D%22middle%22%20font-family%3D%22ui-sans-serif%2Csystem-ui%2C-apple-system%2CSegoe%20UI%2Csans-serif%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EG%3C%2Ftext%3E%3C%2Fsvg%3E">
+<meta name="theme-color" content="#7b1414">
+<meta name="description" content="My Good Qualities — Colorful Camel Word &amp; Coloring Game | deployed with HTMLaunch">
+<link rel="canonical" href="https://Macthesmalwa.github.io/camelgameformaryam/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="My Good Qualities — Colorful Camel Word &amp; Coloring Game">
+<meta property="og:title" content="My Good Qualities — Colorful Camel Word &amp; Coloring Game">
+<meta property="og:description" content="My Good Qualities — Colorful Camel Word &amp; Coloring Game | deployed with HTMLaunch">
+<meta property="og:url" content="https://Macthesmalwa.github.io/camelgameformaryam/">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://s.wordpress.com/mshots/v1/https%3A%2F%2FMacthesmalwa.github.io%2Fcamelgameformaryam%2F?w=1200&h=630">
+<meta property="og:image:alt" content="My Good Qualities — Colorful Camel Word &amp; Coloring Game">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="My Good Qualities — Colorful Camel Word &amp; Coloring Game">
+<meta name="twitter:description" content="My Good Qualities — Colorful Camel Word &amp; Coloring Game | deployed with HTMLaunch">
+<meta name="twitter:image" content="https://s.wordpress.com/mshots/v1/https%3A%2F%2FMacthesmalwa.github.io%2Fcamelgameformaryam%2F?w=1200&h=630">
+<meta name="twitter:image:alt" content="My Good Qualities — Colorful Camel Word &amp; Coloring Game">
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>My Good Qualities — Colorful Camel Word & Coloring Game</title>
+<style>
+  :root {
+    --bg-sky: #fff7e6;
+    --card-bg: #ffffff;
+    --primary: #ff6b6b;
+    --secondary: #4ecdc4;
+    --accent: #ffd166;
+    --purple: #845ec2;
+    --blue: #3a86ff;
+    --green: #06d6a0;
+    --text: #2b2d42;
+    --muted: #6c757d;
+    --shadow: 0 10px 25px rgba(43, 45, 66, 0.12);
+  }
+
+  * {
+    box-sizing: border-box;
+    user-select: none;
+  }
+
+  body {
+    margin: 0;
+    font-family: "Comic Sans MS", "Trebuchet MS", "Segoe UI", sans-serif;
+    background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 45%, #a1c4fd 100%);
+    min-height: 100vh;
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+  }
+
+  header {
+    width: 100%;
+    max-width: 1050px;
+    background: var(--card-bg);
+    border-radius: 24px;
+    padding: 14px 24px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 18px;
+    border: 4px solid var(--accent);
+  }
+
+  .title-group h1 {
+    margin: 0;
+    font-size: 1.75rem;
+    background: linear-gradient(90deg, #ff6b6b, #845ec2, #3a86ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .title-group p {
+    margin: 2px 0 0;
+    font-size: 0.95rem;
+    color: var(--muted);
+  }
+
+  .hud {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .badge-pill {
+    background: #f8f9fa;
+    border: 2px solid #e9ecef;
+    border-radius: 999px;
+    padding: 6px 14px;
+    font-weight: bold;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .sound-btn {
+    background: var(--secondary);
+    color: #fff;
+    border: none;
+    border-radius: 999px;
+    padding: 8px 14px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 0.9rem;
+    box-shadow: 0 4px 0 #34a099;
+    transition: transform 0.1s;
+  }
+
+  .sound-btn:active {
+    transform: translateY(3px);
+    box-shadow: 0 1px 0 #34a099;
+  }
+
+  .steps-nav {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    max-width: 1050px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+  }
+
+  .step-tab {
+    flex: 1;
+    min-width: 180px;
+    background: rgba(255, 255, 255, 0.85);
+    border: 3px solid transparent;
+    border-radius: 18px;
+    padding: 10px 14px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s;
+    color: var(--text);
+  }
+
+  .step-tab.active {
+    background: #ffffff;
+    border-color: var(--purple);
+    box-shadow: var(--shadow);
+    transform: translateY(-2px);
+  }
+
+  .main-grid {
+    width: 100%;
+    max-width: 1050px;
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 20px;
+  }
+
+  @media (max-width: 860px) {
+    .main-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .card {
+    background: var(--card-bg);
+    border-radius: 26px;
+    padding: 20px;
+    box-shadow: var(--shadow);
+    border: 4px solid #fff;
+    position: relative;
+  }
+
+  /* Camel Stage */
+  .camel-stage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .compliment-banner {
+    width: 100%;
+    min-height: 62px;
+    background: linear-gradient(135deg, #fff3cd, #ffe8a1);
+    border: 3px dashed #ffb703;
+    border-radius: 18px;
+    padding: 10px 16px;
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.05rem;
+    font-weight: bold;
+    color: #7f4f24;
+    transition: transform 0.25s ease;
+  }
+
+  .compliment-banner.pop {
+    animation: popScale 0.45s ease;
+  }
+
+  @keyframes popScale {
+    0% { transform: scale(0.92); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+  }
+
+  svg#camelSvg {
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+    border-radius: 20px;
+    background: #e0f7fa;
+    border: 3px solid #bce0fd;
+  }
+
+  .paintable {
+    cursor: pointer;
+    transition: filter 0.15s;
+  }
+
+  .paintable:hover {
+    filter: brightness(0.95);
+  }
+
+  .word-pill-svg text {
+    font-family: "Comic Sans MS", "Trebuchet MS", sans-serif;
+    font-weight: bold;
+    pointer-events: none;
+  }
+
+  /* Right Panel Controls */
+  .panel-section {
+    display: none;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .panel-section.active {
+    display: flex;
+  }
+
+  .section-title {
+    margin: 0;
+    font-size: 1.35rem;
+    color: var(--purple);
+  }
+
+  .hint-box {
+    background: #f1f5ff;
+    border-left: 5px solid var(--blue);
+    padding: 10px 14px;
+    border-radius: 12px;
+    font-size: 0.98rem;
+  }
+
+  .slots-row {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin: 8px 0;
+  }
+
+  .letter-slot {
+    width: 44px;
+    height: 50px;
+    border-radius: 12px;
+    border: 3px dashed #adb5bd;
+    background: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.45rem;
+    font-weight: bold;
+    color: var(--purple);
+    transition: all 0.2s;
+  }
+
+  .letter-slot.filled {
+    border-style: solid;
+    border-color: var(--green);
+    background: #e6fcf5;
+    transform: scale(1.06);
+  }
+
+  .tiles-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 6px;
+  }
+
+  .letter-tile {
+    width: 48px;
+    height: 52px;
+    border: none;
+    border-radius: 14px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 5px 0 rgba(0,0,0,0.2);
+    transition: transform 0.1s, opacity 0.2s;
+  }
+
+  .letter-tile:active {
+    transform: translateY(4px);
+    box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+  }
+
+  .letter-tile:disabled {
+    opacity: 0.3;
+    cursor: default;
+    transform: none;
+  }
+
+  .action-row {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 8px;
+  }
+
+  .btn {
+    border: none;
+    border-radius: 14px;
+    padding: 10px 18px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    box-shadow: 0 4px 0 rgba(0,0,0,0.18);
+    transition: transform 0.1s;
+  }
+
+  .btn:active {
+    transform: translateY(3px);
+  }
+
+  .btn-warn { background: #ff9f1c; }
+  .btn-info { background: var(--blue); }
+  .btn-success { background: var(--green); color: #1b4332; }
+  .btn-purple { background: var(--purple); }
+
+  /* Step 2: My Two Qualities */
+  .quality-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .q-chip {
+    background: #fff0f3;
+    border: 2px solid #ff758f;
+    color: #c9184a;
+    border-radius: 999px;
+    padding: 8px 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+
+  .q-chip:hover {
+    background: #ff758f;
+    color: #fff;
+  }
+
+  .custom-input-group {
+    display: flex;
+    gap: 8px;
+  }
+
+  .custom-input-group input {
+    flex: 1;
+    padding: 10px 12px;
+    border-radius: 12px;
+    border: 2px solid #ced4da;
+    font-size: 1rem;
+    font-family: inherit;
+  }
+
+  .selected-boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .my-badge-box {
+    background: #e8f8f5;
+    border: 3px solid var(--secondary);
+    border-radius: 16px;
+    padding: 12px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  /* Step 3: Coloring Palette */
+  .palette-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+  }
+
+  .swatch {
+    height: 46px;
+    border-radius: 14px;
+    border: 3px solid #fff;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+    cursor: pointer;
+    transition: transform 0.15s;
+  }
+
+  .swatch.active {
+    transform: scale(1.12);
+    border-color: #2b2d42;
+  }
+
+  .swatch.rainbow {
+    background: linear-gradient(135deg, #ff595e, #ffca3a, #8ac926, #1982c4, #6a4c93);
+  }
+
+  /* Confetti Canvas */
+  #confettiCanvas {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 999;
+  }
+</style>
+</head>
+<body>
+
+<canvas id="confettiCanvas"></canvas>
+
+<header>
+  <div class="title-group">
+    <h1>🐪 My Good Qualities</h1>
+    <p>Spell the words, pick your two superpowers, and color your desert friend!</p>
+  </div>
+  <div class="hud">
+    <div class="badge-pill">⭐ Stars: <span id="starCount">0</span></div>
+    <div class="badge-pill">🏆 Words: <span id="wordsSolvedCount">0</span>/5</div>
+    <button class="sound-btn" id="soundToggle">🔊 Sound: ON</button>
+  </div>
+</header>
+
+<div class="steps-nav">
+  <button class="step-tab active" data-step="1">1️⃣ Spell the Qualities</button>
+  <button class="step-tab" data-step="2">2️⃣ My Two Qualities</button>
+  <button class="step-tab" data-step="3">3️⃣ Color the Camel</button>
+</div>
+
+<div class="main-grid">
+  <!-- Left: Interactive Camel Illustration -->
+  <div class="card camel-stage">
+    <div class="compliment-banner" id="complimentBanner">
+      🌟 Welcome, superstar! Tap the letter tiles to spell each good quality!
+    </div>
+
+    <svg id="camelSvg" viewBox="0 0 600 430" xmlns="http://www.w3.org/2000/svg">
+      <!-- Sky -->
+      <rect id="part-sky" class="paintable" x="0" y="0" width="600" height="270" fill="#dff6ff" />
+      <!-- Sun -->
+      <circle id="part-sun" class="paintable" cx="95" cy="70" r="36" fill="#ffd166" stroke="#f4a261" stroke-width="4" />
+      <!-- Back Sand Dunes -->
+      <path id="part-dune-back" class="paintable" d="M0,255 Q150,205 310,250 T600,235 L600,340 L0,340 Z" fill="#f7e1b5" stroke="#d4a373" stroke-width="3" />
+      <!-- Front Sand Ground -->
+      <path id="part-dune-front" class="paintable" d="M0,305 Q220,275 420,315 T600,295 L600,430 L0,430 Z" fill="#edd19c" stroke="#bc8a5f" stroke-width="3" />
+      <!-- Shadow under camel -->
+      <ellipse cx="305" cy="382" rx="145" ry="14" fill="rgba(0,0,0,0.12)" />
+
+      <!-- Camel Legs -->
+      <path id="part-legs" class="paintable"
+        d="M205,255 L192,375 L212,375 L224,268
+           M238,262 L232,375 L252,375 L258,265
+           M348,262 L345,378 L365,378 L368,262
+           M378,255 L385,378 L405,378 L398,250"
+        fill="#f4a261" stroke="#2b2d42" stroke-width="4" stroke-linejoin="round" />
+
+      <!-- Camel Tail -->
+      <path id="part-tail" class="paintable" d="M180,215 Q152,245 162,285 Q172,275 182,235 Z" fill="#e76f51" stroke="#2b2d42" stroke-width="4" />
+
+      <!-- Camel Main Body & Hump -->
+      <path id="part-body" class="paintable"
+        d="M180,220
+           C175,180 215,165 245,140
+           C270,115 315,115 338,145
+           C360,170 395,185 420,175
+           C442,165 452,130 462,102
+           L492,105
+           C482,155 468,215 415,248
+           C365,278 245,280 198,248
+           C185,238 180,230 180,220 Z"
+        fill="#ffe5b4" stroke="#2b2d42" stroke-width="4" stroke-linejoin="round" />
+
+      <!-- Camel Head & Ear -->
+      <path id="part-head" class="paintable"
+        d="M456,105
+           C458,82 485,76 512,86
+           C528,92 536,104 526,115
+           C515,125 495,122 485,116
+           L460,115 Z"
+        fill="#ffe5b4" stroke="#2b2d42" stroke-width="4" stroke-linejoin="round" />
+      <ellipse id="part-ear" class="paintable" cx="464" cy="84" rx="7" ry="12" transform="rotate(-25 464 84)" fill="#f4a261" stroke="#2b2d42" stroke-width="3" />
+      <!-- Eye & Smile -->
+      <circle cx="492" cy="95" r="4" fill="#2b2d42" />
+      <path d="M505,108 Q516,114 525,106" fill="none" stroke="#2b2d42" stroke-width="3" stroke-linecap="round" />
+
+      <!-- 5 Quality Badges on Camel (from worksheet) -->
+      <g id="badge-kind" class="word-pill-svg" transform="translate(292, 146)">
+        <rect x="-42" y="-17" width="84" height="34" rx="17" fill="#ffffff" stroke="#2b2d42" stroke-width="3" />
+        <text x="0" y="6" text-anchor="middle" font-size="16" fill="#adb5bd">Kind</text>
+      </g>
+
+      <g id="badge-brave" class="word-pill-svg" transform="translate(222, 185) rotate(-22)">
+        <rect x="-44" y="-16" width="88" height="32" rx="16" fill="#ffffff" stroke="#2b2d42" stroke-width="3" />
+        <text x="0" y="6" text-anchor="middle" font-size="15" fill="#adb5bd">Brave</text>
+      </g>
+
+      <g id="badge-polite" class="word-pill-svg" transform="translate(198, 245) rotate(-78)">
+        <rect x="-42" y="-15" width="84" height="30" rx="15" fill="#ffffff" stroke="#2b2d42" stroke-width="3" />
+        <text x="0" y="5" text-anchor="middle" font-size="15" fill="#adb5bd">Polite</text>
+      </g>
+
+      <g id="badge-smart" class="word-pill-svg" transform="translate(302, 246)">
+        <rect x="-44" y="-16" width="88" height="32" rx="16" fill="#ffffff" stroke="#2b2d42" stroke-width="3" />
+        <text x="0" y="6" text-anchor="middle" font-size="15" fill="#adb5bd">Smart</text>
+      </g>
+
+      <g id="badge-ambitious" class="word-pill-svg" transform="translate(425, 205) rotate(-32)">
+        <rect x="-54" y="-16" width="108" height="32" rx="16" fill="#ffffff" stroke="#2b2d42" stroke-width="3" />
+        <text x="0" y="5" text-anchor="middle" font-size="14" fill="#adb5bd">Ambitious</text>
+      </g>
+
+      <!-- Two Personal Quality Ovals (Green example ovals from worksheet) -->
+      <g id="personal-oval-1" transform="translate(275, 206)">
+        <rect x="-45" y="-15" width="90" height="30" rx="15" fill="#e6fcf5" stroke="#06d6a0" stroke-width="2.5" stroke-dasharray="4 3" />
+        <text id="personal-text-1" x="0" y="5" text-anchor="middle" font-size="13" font-weight="bold" fill="#087f5b">Me #1</text>
+      </g>
+
+      <g id="personal-oval-2" transform="translate(352, 184)">
+        <rect x="-45" y="-15" width="90" height="30" rx="15" fill="#e6fcf5" stroke="#06d6a0" stroke-width="2.5" stroke-dasharray="4 3" />
+        <text id="personal-text-2" x="0" y="5" text-anchor="middle" font-size="13" font-weight="bold" fill="#087f5b">Me #2</text>
+      </g>
+    </svg>
+  </div>
+
+  <!-- Right: Interactive Activities -->
+  <div class="card">
+    <!-- STEP 1: SPELLING PUZZLE -->
+    <div class="panel-section active" id="step-1">
+      <h2 class="section-title">🔤 Spell the Good Quality!</h2>
+      <div class="hint-box" id="wordClue">
+        <strong>Clue:</strong> Being friendly, caring, and helpful to others.
+      </div>
+
+      <div class="slots-row" id="slotsRow"></div>
+      <div class="tiles-row" id="tilesRow"></div>
+
+      <div class="action-row">
+        <button class="btn btn-warn" id="clearWordBtn">🔄 Clear</button>
+        <button class="btn btn-info" id="hintBtn">💡 Hint</button>
+        <button class="btn btn-purple" id="nextWordBtn">⏭️ Skip Word</button>
+      </div>
+    </div>
+
+    <!-- STEP 2: TWO QUALITIES IN YOURSELF -->
+    <div class="panel-section" id="step-2">
+      <h2 class="section-title">💖 Two Qualities You See in Yourself</h2>
+      <p style="margin:0;color:var(--muted);">
+        Pick two wonderful qualities from the camel—or type your own—to place inside the two green badges!
+      </p>
+
+      <div class="quality-chips" id="qualityChips">
+        <button class="q-chip" data-q="Kind">Kind</button>
+        <button class="q-chip" data-q="Brave">Brave</button>
+        <button class="q-chip" data-q="Polite">Polite</button>
+        <button class="q-chip" data-q="Smart">Smart</button>
+        <button class="q-chip" data-q="Ambitious">Ambitious</button>
+        <button class="q-chip" data-q="Honest">Honest</button>
+        <button class="q-chip" data-q="Creative">Creative</button>
+        <button class="q-chip" data-q="Helpful">Helpful</button>
+      </div>
+
+      <div class="custom-input-group">
+        <input type="text" id="customQualityInput" maxlength="12" placeholder="Or write your own quality..." />
+        <button class="btn btn-success" id="addCustomBtn">Add ✨</button>
+      </div>
+
+      <div class="selected-boxes">
+        <div class="my-badge-box">
+          <div style="font-size:0.8rem;color:#087f5b;">Quality #1</div>
+          <div id="chosen1" style="font-size:1.2rem;margin-top:4px;">—</div>
+        </div>
+        <div class="my-badge-box">
+          <div style="font-size:0.8rem;color:#087f5b;">Quality #2</div>
+          <div id="chosen2" style="font-size:1.2rem;margin-top:4px;">—</div>
+        </div>
+      </div>
+
+      <button class="btn btn-warn" id="resetPersonalBtn">🧹 Reset My Two Qualities</button>
+    </div>
+
+    <!-- STEP 3: COLORING STUDIO -->
+    <div class="panel-section" id="step-3">
+      <h2 class="section-title">🎨 Color Your Camel!</h2>
+      <p style="margin:0;color:var(--muted);">
+        Pick a bright color below, then tap any part of the camel, sun, sky, or sand dunes!
+      </p>
+
+      <div class="palette-grid" id="paletteGrid"></div>
+
+      <div class="action-row">
+        <button class="btn btn-success" id="autoColorBtn">✨ Surprise Rainbow Camel!</button>
+        <button class="btn btn-warn" id="resetColorsBtn">🧼 Reset Colors</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // --- Web Audio Synthesizer for Cheerful Sound Effects ---
+  let soundEnabled = true;
+  let audioCtx = null;
+
+  function ensureAudio() {
+    if (!audioCtx) {
+      audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    }
+    if (audioCtx.state === "suspended") {
+      audioCtx.resume();
+    }
+  }
+
+  function playTone(freq, duration = 0.14, type = "sine", delay = 0) {
+    if (!soundEnabled) return;
+    ensureAudio();
+    const now = audioCtx.currentTime + delay;
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+    osc.type = type;
+    osc.frequency.setValueAtTime(freq, now);
+    gain.gain.setValueAtTime(0.18, now);
+    gain.gain.exponentialRampToValueAtTime(0.001, now + duration);
+    osc.connect(gain);
+    gain.connect(audioCtx.destination);
+    osc.start(now);
+    osc.stop(now + duration);
+  }
+
+  const SFX = {
+    tap: () => playTone(523.25, 0.1, "triangle"),
+    undo: () => playTone(349.23, 0.12, "sine"),
+    wrong: () => {
+      playTone(220, 0.15, "sawtooth", 0);
+      playTone(185, 0.2, "sawtooth", 0.12);
+    },
+    win: () => {
+      [523.25, 659.25, 783.99, 1046.5].forEach((f, i) =>
+        playTone(f, 0.22, "triangle", i * 0.09)
+      );
+    },
+    paint: () => {
+      playTone(660, 0.09, "sine", 0);
+      playTone(880, 0.12, "sine", 0.06);
+    },
+    compliment: () => {
+      [587.33, 739.99, 880].forEach((f, i) =>
+        playTone(f, 0.18, "sine", i * 0.07)
+      );
+    }
+  };
+
+  document.getElementById("soundToggle").addEventListener("click", (e) => {
+    soundEnabled = !soundEnabled;
+    e.target.textContent = soundEnabled ? "🔊 Sound: ON" : "🔇 Sound: OFF";
+    if (soundEnabled) SFX.tap();
+  });
+
+  // --- Compliments Engine ---
+  const COMPLIMENTS = {
+    Kind: "💖 You are so KIND! Your warm heart makes everyone around you smile!",
+    Brave: "🦁 You are super BRAVE! Trying new things takes real courage!",
+    Polite: "🎩 You are wonderfully POLITE! Good manners make you shine bright!",
+    Smart: "🧠 You are amazingly SMART! Your curious brain can solve anything!",
+    Ambitious: "🚀 You are truly AMBITIOUS! Big dreams lead to awesome adventures!",
+    generic: [
+      "🌟 Fantastic job! You're an absolute word wizard!",
+      "🎉 Way to go, superstar! Keep shining!",
+      "🌈 Brilliant work! Your camel is so proud of you!",
+      "⭐ You nailed it! What an awesome thinker you are!",
+      "🏆 Super duper! You've got unstoppable talent!"
+    ],
+    coloring: [
+      "🎨 What a splash of color! You're a true desert artist!",
+      "🖌️ Gorgeous choice! Your camel looks fabulous!",
+      "✨ Ooh, vibrant and cheerful! Great eye for color!"
+    ]
+  };
+
+  function showCompliment(message) {
+    const banner = document.getElementById("complimentBanner");
+    banner.textContent = message;
+    banner.classList.remove("pop");
+    void banner.offsetWidth;
+    banner.classList.add("pop");
+  }
+
+  // --- Confetti Celebration ---
+  const confettiCanvas = document.getElementById("confettiCanvas");
+  const ctx = confettiCanvas.getContext("2d");
+  let particles = [];
+
+  function resizeCanvas() {
+    confettiCanvas.width = window.innerWidth;
+    confettiCanvas.height = window.innerHeight;
+  }
+  window.addEventListener("resize", resizeCanvas);
+  resizeCanvas();
+
+  function launchConfetti() {
+    const colors = ["#ff595e", "#ffca3a", "#8ac926", "#1982c4", "#6a4c93", "#ff85a1"];
+    for (let i = 0; i < 75; i++) {
+      particles.push({
+        x: Math.random() * confettiCanvas.width,
+        y: -10 - Math.random() * 100,
+        vx: (Math.random() - 0.5) * 6,
+        vy: 2 + Math.random() * 5,
+        size: 6 + Math.random() * 7,
+        color: colors[Math.floor(Math.random() * colors.length)],
+        rot: Math.random() * 360
+      });
+    }
+  }
+
+  function animateConfetti() {
+    ctx.clearRect(0, 0, confettiCanvas.width, confettiCanvas.height);
+    particles = particles.filter((p) => p.y < confettiCanvas.height + 20);
+    for (const p of particles) {
+      p.x += p.vx;
+      p.y += p.vy;
+      p.rot += 5;
+      ctx.save();
+      ctx.translate(p.x, p.y);
+      ctx.rotate((p.rot * Math.PI) / 180);
+      ctx.fillStyle = p.color;
+      ctx.fillRect(-p.size / 2, -p.size / 2, p.size, p.size * 0.6);
+      ctx.restore();
+    }
+    requestAnimationFrame(animateConfetti);
+  }
+  animateConfetti();
+
+  // --- Step Navigation ---
+  document.querySelectorAll(".step-tab").forEach((tab) => {
+    tab.addEventListener("click", () => {
+      SFX.tap();
+      document.querySelectorAll(".step-tab").forEach((t) => t.classList.remove("active"));
+      document.querySelectorAll(".panel-section").forEach((p) => p.classList.remove("active"));
+      tab.classList.add("active");
+      document.getElementById(`step-${tab.dataset.step}`).classList.add("active");
+    });
+  });
+
+  // --- Step 1: Word Spelling Game ---
+  const WORDS = [
+    { word: "KIND", badgeId: "badge-kind", color: "#ff6b6b", clue: "Being friendly, caring, and helpful to others." },
+    { word: "BRAVE", badgeId: "badge-brave", color: "#ff9f1c", clue: "Facing scary or hard things with courage." },
+    { word: "POLITE", badgeId: "badge-polite", color: "#3a86ff", clue: "Saying 'please' and 'thank you' and showing good manners." },
+    { word: "SMART", badgeId: "badge-smart", color: "#06d6a0", clue: "Learning quickly, thinking carefully, and solving problems." },
+    { word: "AMBITIOUS", badgeId: "badge-ambitious", color: "#845ec2", clue: "Having big goals and working hard to reach them." }
+  ];
+
+  const TILE_COLORS = ["#ff595e", "#ff924c", "#ffca3a", "#8ac926", "#1982c4", "#6a4c93", "#f15bb5"];
+  let currentWordIndex = 0;
+  let currentGuess = [];
+  let scrambledLetters = [];
+  let solvedSet = new Set();
+  let stars = 0;
+
+  function addStars(amount) {
+    stars += amount;
+    document.getElementById("starCount").textContent = stars;
+  }
+
+  function shuffle(arr) {
+    const copy = [...arr];
+    for (let i = copy.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [copy[i], copy[j]] = [copy[j], copy[i]];
+    }
+    return copy;
+  }
+
+  function loadWord(idx) {
+    currentWordIndex = idx % WORDS.length;
+    const item = WORDS[currentWordIndex];
+    currentGuess = [];
+    scrambledLetters = shuffle(item.word.split("")).map((ch, i) => ({
+      id: i,
+      char: ch,
+      used: false,
+      color: TILE_COLORS[i % TILE_COLORS.length]
+    }));
+
+    document.getElementById("wordClue").innerHTML =
+      `<strong>Word ${currentWordIndex + 1} of 5 Clue:</strong> ${item.clue}`;
+    renderSpellingBoard();
+  }
+
+  function renderSpellingBoard() {
+    const item = WORDS[currentWordIndex];
+    const slotsRow = document.getElementById("slotsRow");
+    const tilesRow = document.getElementById("tilesRow");
+    slotsRow.innerHTML = "";
+    tilesRow.innerHTML = "";
+
+    for (let i = 0; i < item.word.length; i++) {
+      const slot = document.createElement("div");
+      slot.className = "letter-slot" + (currentGuess[i] ? " filled" : "");
+      slot.textContent = currentGuess[i] ? currentGuess[i].char : "";
+      slotsRow.appendChild(slot);
+    }
+
+    scrambledLetters.forEach((tile) => {
+      const btn = document.createElement("button");
+      btn.className = "letter-tile";
+      btn.textContent = tile.char;
+      btn.style.backgroundColor = tile.color;
+      btn.disabled = tile.used;
+      btn.addEventListener("click", () => handleTilePick(tile));
+      tilesRow.appendChild(btn);
+    });
+  }
+
+  function handleTilePick(tile) {
+    const targetWord = WORDS[currentWordIndex].word;
+    if (currentGuess.length >= targetWord.length) return;
+
+    tile.used = true;
+    currentGuess.push(tile);
+    SFX.tap();
+    renderSpellingBoard();
+
+    if (currentGuess.length === targetWord.length) {
+      const spelled = currentGuess.map((t) => t.char).join("");
+      if (spelled === targetWord) {
+        onWordSolved(WORDS[currentWordIndex]);
+      } else {
+        SFX.wrong();
+        showCompliment("🙈 Almost! Try rearranging those colorful letters!");
+        setTimeout(() => {
+          currentGuess = [];
+          scrambledLetters.forEach((t) => (t.used = false));
+          renderSpellingBoard();
+        }, 650);
+      }
+    }
+  }
+
+  function onWordSolved(item) {
+    SFX.win();
+    launchConfetti();
+    addStars(10);
+
+    const badge = document.getElementById(item.badgeId);
+    badge.querySelector("rect").setAttribute("fill", item.color);
+    badge.querySelector("text").setAttribute("fill", "#ffffff");
+
+    const properCase = item.word[0] + item.word.slice(1).toLowerCase();
+    showCompliment(COMPLIMENTS[properCase] || COMPLIMENTS.generic[0]);
+
+    if (!solvedSet.has(item.word)) {
+      solvedSet.add(item.word);
+      document.getElementById("wordsSolvedCount").textContent = solvedSet.size;
+    }
+
+    setTimeout(() => {
+      if (solvedSet.size === WORDS.length) {
+        showCompliment("🎊 AMAZING! You spelled all 5 good qualities! Now pick your two personal qualities in Step 2!");
+      }
+      loadWord(currentWordIndex + 1);
+    }, 1500);
+  }
+
+  document.getElementById("clearWordBtn").addEventListener("click", () => {
+    SFX.undo();
+    currentGuess = [];
+    scrambledLetters.forEach((t) => (t.used = false));
+    renderSpellingBoard();
+  });
+
+  document.getElementById("hintBtn").addEventListener("click", () => {
+    const targetWord = WORDS[currentWordIndex].word;
+    const nextPos = currentGuess.length;
+    if (nextPos >= targetWord.length) return;
+    const neededChar = targetWord[nextPos];
+    const match = scrambledLetters.find((t) => !t.used && t.char === neededChar);
+    if (match) {
+      showCompliment(`💡 Here's a boost: the next letter is "${neededChar}"!`);
+      handleTilePick(match);
+    }
+  });
+
+  document.getElementById("nextWordBtn").addEventListener("click", () => {
+    SFX.tap();
+    loadWord(currentWordIndex + 1);
+  });
+
+  // --- Step 2: Two Personal Qualities ---
+  let myTwoQualities = [];
+
+  function updatePersonalBadges() {
+    const q1 = myTwoQualities[0] || "Me #1";
+    const q2 = myTwoQualities[1] || "Me #2";
+    document.getElementById("personal-text-1").textContent = q1;
+    document.getElementById("personal-text-2").textContent = q2;
+    document.getElementById("chosen1").textContent = myTwoQualities[0] || "—";
+    document.getElementById("chosen2").textContent = myTwoQualities[1] || "—";
+  }
+
+  function selectPersonalQuality(word) {
+    const clean = word.trim();
+    if (!clean) return;
+    const formatted = clean[0].toUpperCase() + clean.slice(1);
+
+    if (myTwoQualities.length >= 2) {
+      myTwoQualities.shift();
+    }
+    myTwoQualities.push(formatted);
+    updatePersonalBadges();
+    SFX.compliment();
+    addStars(5);
+
+    const specific = COMPLIMENTS[formatted];
+    showCompliment(
+      specific || `🌟 Being "${formatted}" makes you truly one-of-a-kind! Keep shining!`
+    );
+
+    if (myTwoQualities.length === 2) {
+      launchConfetti();
+    }
+  }
+
+  document.querySelectorAll(".q-chip").forEach((chip) => {
+    chip.addEventListener("click", () => selectPersonalQuality(chip.dataset.q));
+  });
+
+  document.getElementById("addCustomBtn").addEventListener("click", () => {
+    const input = document.getElementById("customQualityInput");
+    if (input.value.trim()) {
+      selectPersonalQuality(input.value);
+      input.value = "";
+    }
+  });
+
+  document.getElementById("resetPersonalBtn").addEventListener("click", () => {
+    SFX.undo();
+    myTwoQualities = [];
+    updatePersonalBadges();
+    showCompliment("🧹 Cleared! Choose two awesome qualities you see in yourself!");
+  });
+
+  // --- Step 3: Interactive Coloring Studio ---
+  const PALETTE = [
+    "#ff595e", "#ff924c", "#ffca3a", "#8ac926", "#06d6a0",
+    "#1982c4", "#6a4c93", "#ff85a1", "#f4a261", "RAINBOW"
+  ];
+  let activeColor = "#ffca3a";
+  let rainbowIndex = 0;
+
+  const paletteGrid = document.getElementById("paletteGrid");
+  PALETTE.forEach((col, i) => {
+    const btn = document.createElement("button");
+    btn.className = "swatch" + (col === activeColor ? " active" : "") + (col === "RAINBOW" ? " rainbow" : "");
+    if (col !== "RAINBOW") btn.style.backgroundColor = col;
+    btn.title = col === "RAINBOW" ? "Magic Rainbow Brush" : col;
+    btn.addEventListener("click", () => {
+      SFX.tap();
+      activeColor = col;
+      document.querySelectorAll(".swatch").forEach((s) => s.classList.remove("active"));
+      btn.classList.add("active");
+    });
+    paletteGrid.appendChild(btn);
+  });
+
+  document.querySelectorAll(".paintable").forEach((part) => {
+    part.addEventListener("click", () => {
+      let paint = activeColor;
+      if (activeColor === "RAINBOW") {
+        paint = PALETTE[rainbowIndex % (PALETTE.length - 1)];
+        rainbowIndex++;
+      }
+      part.setAttribute("fill", paint);
+      SFX.paint();
+      addStars(1);
+      const msg = COMPLIMENTS.coloring[Math.floor(Math.random() * COMPLIMENTS.coloring.length)];
+      showCompliment(msg);
+    });
+  });
+
+  document.getElementById("autoColorBtn").addEventListener("click", () => {
+    SFX.win();
+    launchConfetti();
+    const parts = document.querySelectorAll(".paintable");
+    parts.forEach((p, idx) => {
+      p.setAttribute("fill", PALETTE[idx % (PALETTE.length - 1)]);
+    });
+    showCompliment("🌈 Ta-da! A magical rainbow camel created by an amazing artist!");
+  });
+
+  const DEFAULT_FILLS = {
+    "part-sky": "#dff6ff",
+    "part-sun": "#ffd166",
+    "part-dune-back": "#f7e1b5",
+    "part-dune-front": "#edd19c",
+    "part-legs": "#f4a261",
+    "part-tail": "#e76f51",
+    "part-body": "#ffe5b4",
+    "part-head": "#ffe5b4",
+    "part-ear": "#f4a261"
+  };
+
+  document.getElementById("resetColorsBtn").addEventListener("click", () => {
+    SFX.undo();
+    Object.entries(DEFAULT_FILLS).forEach(([id, fill]) => {
+      document.getElementById(id).setAttribute("fill", fill);
+    });
+  });
+
+  // Initialize first word
+  loadWord(0);
+</script>
+</body>
+</html>
+
